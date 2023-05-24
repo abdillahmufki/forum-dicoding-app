@@ -1,0 +1,57 @@
+.commentItem{
+    margin-top: 20px;
+    padding-bottom: 20px;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.commentItem p{
+    margin: 10px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ownerInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.owner{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.ava{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postAt{
+    color: var(--light-color);
+}
+
+
+.upVote{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.downVote{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    height: var(--footerHeight);
+    background-color: #2d3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    grid-area: footer;
+}
+.copyright{
+    color: white;
+}

@@ -1,0 +1,20 @@
+.add{
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 5vw;
+    bottom: 8vh;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,10 @@
+.thread_upvote{
+    display:  flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .thread_downvote{
+    display:  flex;
+    align-items: center;
+    gap: 3px;
+  }

@@ -1,0 +1,52 @@
+.threads{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.category{
+    border: 1px solid rgba(0, 0, 0, 0.5);    
+    padding: 4px 8px;
+    border-radius: 7px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: blue;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    /* display: inline; */
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.body{
+    color: rgb(59, 59, 59);
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer__item{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
